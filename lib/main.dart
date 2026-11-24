@@ -45,7 +45,7 @@ class HomePage extends StatelessWidget {
                 children: [
                   const CircleAvatar(
                     radius: 40,
-                    backgroundImage: NetworkImage("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuAyO7nuHUpXvv_O4guDFR_MuqmZs1Y6JtjKZgmyfCXSVFttWTZE5TIZ4u&s=10"),//ใส่รูปโปรไฟล์
+                    backgroundImage : AssetImage("assets/unnamed.jpg"),
                   ),
                   Expanded(
                     child: Row(
